@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "88e371ddcac058a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "27a13c9fabd26a73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21bb104cd323be2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/git_debug.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc4e7675fe7889f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "98e45de0f69ad6ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d05fecb3b51bc55",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "be84cd6307ef8107",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "063ff686f180a593",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "072699789cc16db8",
+    "type": "split",
+    "children": [
+      {
+        "id": "005b88a7a301710b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4eb17839d8d473f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git/git_debug.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "35fcd283159f0e97",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git/git_debug.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "928aee799cd3df7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "449632e36ba816c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git/git_debug.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "21bb104cd323be2d",
+  "lastOpenFiles": [
+    "Git/git_order.md",
+    "Git/git_debug.md",
+    "WMware/source.md",
+    "WSL2/wsl2_net.md",
+    "WMware",
+    "WSL2/wsl2_debug.md",
+    "Windows/windows_order.md",
+    "VScode/plugins_list.md",
+    "Windows",
+    "ROS2/install_ros2.md",
+    "Network/remote source.md",
+    "ROS2",
+    "VScode",
+    "Network",
+    "2024-09-08.md",
+    "未命名.canvas",
+    "WSL2",
+    "Git"
+  ]
+}
