@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/git_debug.md",
-                "mode": "preview",
+                "file": "WMware/CentOS/samba.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/git_debug.md",
+                "file": "WMware/CentOS/samba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/git_debug.md",
+                "file": "WMware/CentOS/samba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/git_debug.md"
+                "file": "WMware/CentOS/samba.md"
               }
             }
           }
@@ -148,9 +148,13 @@
   },
   "active": "21bb104cd323be2d",
   "lastOpenFiles": [
+    "WMware/CentOS/Debug.md",
+    "WMware/CentOS/samba.md",
+    "WMware/source.md",
+    "WMware/CentOS",
+    "WMware/未命名.md",
     "Git/git_order.md",
     "Git/git_debug.md",
-    "WMware/source.md",
     "WSL2/wsl2_net.md",
     "WMware",
     "WSL2/wsl2_debug.md",
