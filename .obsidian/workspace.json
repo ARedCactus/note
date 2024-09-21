@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "27a13c9fabd26a73",
+        "id": "ad51497a2cd14918",
         "type": "tabs",
         "children": [
           {
-            "id": "21bb104cd323be2d",
+            "id": "f5c17b43fe7ade4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WMware/CentOS/samba.md",
-                "mode": "source",
+                "file": "VScode/key_words.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WMware/CentOS/samba.md",
+                "file": "VScode/key_words.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WMware/CentOS/samba.md",
+                "file": "VScode/key_words.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WMware/CentOS/samba.md"
+                "file": "VScode/key_words.md"
               }
             }
           }
@@ -146,10 +146,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "21bb104cd323be2d",
+  "active": "f5c17b43fe7ade4a",
   "lastOpenFiles": [
-    "WMware/CentOS/Debug.md",
+    "VScode/key_words.md",
+    "README.md",
     "WMware/CentOS/samba.md",
+    "WMware/CentOS/Debug.md",
     "WMware/source.md",
     "WMware/CentOS",
     "WMware/未命名.md",
