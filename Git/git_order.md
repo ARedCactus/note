@@ -13,6 +13,10 @@ ssh-keygen -t rsa -C "3288538388@qq.com"
 ```
 
 ## 3. 添加公钥至 Github
+- cd ~/.ssh/
+- id_rsa是私钥，id_rsa.pub是公钥
+- 进入你自己的github，进入Settings->SSHand GPG keys->New SSH key
+- 在Key那栏下面将id_rsa.pub粘贴进去，点击 Add SSH key按钮添加
 
 ## 4. 检测是否配置成功
 ```

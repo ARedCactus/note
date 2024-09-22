@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VScode/key_words.md",
+                "file": "Git/git_order.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VScode/key_words.md",
+                "file": "Git/git_order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VScode/key_words.md",
+                "file": "Git/git_order.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VScode/key_words.md"
+                "file": "Git/git_order.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "f5c17b43fe7ade4a",
   "lastOpenFiles": [
+    "双系统/debug.md",
+    "Network/remote source.md",
+    "双系统",
+    "ROS2/install_ros2.md",
+    "Git/git_debug.md",
+    "Git/git_order.md",
     "VScode/key_words.md",
     "README.md",
     "WMware/CentOS/samba.md",
@@ -155,16 +161,12 @@
     "WMware/source.md",
     "WMware/CentOS",
     "WMware/未命名.md",
-    "Git/git_order.md",
-    "Git/git_debug.md",
     "WSL2/wsl2_net.md",
     "WMware",
     "WSL2/wsl2_debug.md",
     "Windows/windows_order.md",
     "VScode/plugins_list.md",
     "Windows",
-    "ROS2/install_ros2.md",
-    "Network/remote source.md",
     "ROS2",
     "VScode",
     "Network",
