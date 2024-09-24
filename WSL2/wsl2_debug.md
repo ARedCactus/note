@@ -1,6 +1,6 @@
-**2021 WSL2 三步安装/修复**
+# 2021 WSL2 安装/修复
 
-打开Windows PoweShell(管理员)依次执行，完成后重启计算机：
+打开Windows PoweShell(管理员)依次执行，完成后==重启计算机==：
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```

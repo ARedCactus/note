@@ -75,8 +75,28 @@ ip route show | grep -i default | awk '{ print $3}'
 
 当 WSL2 以默认 [NAT 网络模式](https://learn.microsoft.com/zh-cn/windows/wsl/networking#default-networking-mode-nat)运行时，通常需要上述 IP 地址查询操作。 当 WSL2 以新的[镜像模式](https://learn.microsoft.com/zh-cn/windows/wsl/networking#mirrored-mode-networking)运行时，Windows 主机和 WSL2 VM 可使用 `localhost` (127.0.0.1) 作为目标地址相互连接，因此不需要使用查询对等机的 IP 地址。
 
+## *桥接模式网络*
+- ~/.wslconfig
+```
+networkingMode=bridged
+vmSwitch=WSLBridge
+ipv6=true
+dnsTunneling=true
+firewall=true
+autoProxy=true
+```
+
 ## *镜像模式网络*
 在运行 Windows 11 22H2 及更高版本的计算机上，可以[在 `.wslconfig` 文件中的 `[wsl2]` 下设置 `networkingMode=mirrored`](https://learn.microsoft.com/zh-cn/windows/wsl/wsl-config#configuration-settings-for-wslconfig)，以启用镜像模式网络。 启用此功能会将 WSL 更改为全新的网络体系结构，其目标是将 Windows 上的网络接口“镜像”到 Linux 中，以添加新的网络功能并提高兼容性。
+
+- ~/.wslconfig
+```
+[experimental]
+networkingMode=mirrored
+dnsTunneling=true
+firewall=true
+autoProxy=true
+```
 
 以下是启用此模式的当前优势：
 
