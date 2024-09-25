@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu/debug.md",
+                "file": "WMware/CentOS/samba.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ubuntu/debug.md",
+                "file": "WMware/CentOS/samba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ubuntu/debug.md",
+                "file": "WMware/CentOS/samba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ubuntu/debug.md"
+                "file": "WMware/CentOS/samba.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "f5c17b43fe7ade4a",
   "lastOpenFiles": [
-    "ROS1/app.md",
+    "WMware/CentOS/Debug.md",
     "Ubuntu/debug.md",
+    "ROS1/app.md",
     "WSL2/wsl2_net.md",
     "ROS1/installing ROS1.md",
     "Ubuntu/app_list.md",
@@ -165,7 +166,6 @@
     "VScode/key_words.md",
     "README.md",
     "WMware/CentOS/samba.md",
-    "WMware/CentOS/Debug.md",
     "WMware/source.md",
     "WMware/CentOS",
     "WMware/未命名.md",
