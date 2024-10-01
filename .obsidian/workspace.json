@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu/envirment.md",
+                "file": "ROS2/Package/faster_lio.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ubuntu/envirment.md",
+                "file": "ROS2/Package/faster_lio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ubuntu/envirment.md",
+                "file": "ROS2/Package/faster_lio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ubuntu/envirment.md"
+                "file": "ROS2/Package/faster_lio.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "dcb727515d348570",
   "lastOpenFiles": [
-    "Ubuntu/debug.md",
     "Ubuntu/envirment.md",
+    "ROS2/Package/faster_lio.md",
+    "ROS2/Package",
+    "Ubuntu/debug.md",
     "Network/remote source.md",
     "WSL2/wsl2_net.md",
     "WMware/source.md",
@@ -178,7 +180,6 @@
     "VScode",
     "Network",
     "2024-09-08.md",
-    "未命名.canvas",
-    "WSL2"
+    "未命名.canvas"
   ]
 }
