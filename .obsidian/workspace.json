@@ -13,7 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
+                
                 "file": "WMware/CentOS/push.md",
+
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +87,9 @@
             "state": {
               "type": "backlink",
               "state": {
+
                 "file": "WMware/CentOS/push.md",
+
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,6 +107,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "WMware/CentOS/push.md",
+
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +130,9 @@
             "state": {
               "type": "outline",
               "state": {
+
                 "file": "WMware/CentOS/push.md"
+
               }
             }
           }
@@ -148,6 +155,7 @@
   },
   "active": "214649dd0fe3d509",
   "lastOpenFiles": [
+
     "WMware/CentOS/samba.md",
     "WMware/CentOS/push.md",
     "ROS1/rely.md",
@@ -155,6 +163,7 @@
     "Ubuntu/app_list.md",
     "ROS1/app.md",
     "ROS1/installing ROS1.md",
+
     "Network/remote source.md",
     "WMware/CentOS/default.md",
     "WMware/CentOS/Debug.md",
@@ -183,7 +192,6 @@
     "VScode",
     "Network",
     "2024-09-08.md",
-    "未命名.canvas",
-    "WSL2"
+    "未命名.canvas"
   ]
 }
