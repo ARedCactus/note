@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "54904d6472b29d83",
+        "id": "4f8f1a950dab4d83",
         "type": "tabs",
         "children": [
           {
-            "id": "dcb727515d348570",
+            "id": "214649dd0fe3d509",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu/envirment.md",
+                "file": "WMware/CentOS/push.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ubuntu/envirment.md",
+                "file": "WMware/CentOS/push.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ubuntu/envirment.md",
+                "file": "WMware/CentOS/push.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ubuntu/envirment.md"
+                "file": "WMware/CentOS/push.md"
               }
             }
           }
@@ -138,27 +138,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "dcb727515d348570",
+  "active": "214649dd0fe3d509",
   "lastOpenFiles": [
-    "Ubuntu/debug.md",
-    "Ubuntu/envirment.md",
-    "Network/remote source.md",
-    "WSL2/wsl2_net.md",
-    "WMware/source.md",
-    "Ubuntu/app_list.md",
-    "双系统/debug.md",
     "WMware/CentOS/samba.md",
-    "WMware/CentOS/Debug.md",
+    "WMware/CentOS/push.md",
+    "ROS1/rely.md",
+    "Ubuntu/envirment.md",
+    "Ubuntu/app_list.md",
     "ROS1/app.md",
     "ROS1/installing ROS1.md",
+    "Network/remote source.md",
+    "WMware/CentOS/default.md",
+    "WMware/CentOS/Debug.md",
+    "WMware/CentOS/DDNS.md",
+    "WMware/CentOS/local loop-back.md",
+    "Ubuntu/debug.md",
+    "WSL2/wsl2_net.md",
+    "WMware/source.md",
+    "双系统/debug.md",
     "Ubuntu",
     "ROS2/install_ros2.md",
     "ROS1",

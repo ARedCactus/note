@@ -6,16 +6,15 @@ yum install samba
 mkdir /home/ld/folder
 ```
 
-- 设置为不予许登入系统,且用户的家目录为 /home/ldd（相当于[虚拟账号](https://zhida.zhihu.com/search?q=%E8%99%9A%E6%8B%9F%E8%B4%A6%E5%8F%B7&zhida_source=entity&is_preview=1)）的ldd账号
-```
-useradd -d /home/ldd -s /sbin/nologin ldd
-```
-
 - 添加samba用户
 ```
 pdbedit -a ldd
 ```
 
+- 设置为不予许登入系统,且用户的家目录为 /home/ldd（相当于[虚拟账号](https://zhida.zhihu.com/search?q=%E8%99%9A%E6%8B%9F%E8%B4%A6%E5%8F%B7&zhida_source=entity&is_preview=1)）的ldd账号
+```
+useradd -d /home/ldd -s /sbin/nologin ldd
+```
 # experiment
 ## 检测系统内部是否已经安装好samba文件
 ```
@@ -136,6 +135,9 @@ systemctl restart smb.service
 getenforce
 ```
 ```
+setenforce 0
+```
+```
 systemctl is-active firewalld.service
 ```
 ```
@@ -144,17 +146,13 @@ systemctl stop firewalld.service
 ```
 systemctl disable firewalld.service
 ```
-## 通过Linux客户端访问Linux服务器共享文件，则先在Linux的控制台上输入如下 命令查看主机172.16.99.1的共享信息
+## 通过Linux客户端访问Linux服务器共享文件，则先在Linux的控制台上输入如下 命令查看主机172.24.7.1的共享信息
 ```
-smbclient -L //127.0.0.1 -U mary
-```
-- 不行换下面
-```
-smbclient -L //192.168.154.128 -U mary
+smbclient -L //172.24.7.1 -U mary
 ```
 ## 访问share目录，则输入如下命令
 ```
-smbclient -c ls //127.0.0.1/share -U mary
+smbclient -c ls //172.24.7.1/share -U mary
 ```
 ## else
 ```
@@ -164,7 +162,7 @@ touch 1 2 3 4
 ## windows端
 - win + R
 ```
-\\127.0.0.1\share
+\\172.24.7.1\share
 ```
 ## 使用smbmount命令挂载远程共享
 ```
@@ -172,7 +170,7 @@ mkdir -p /mnt/smb/win
 ```
 ### 将远程共享share挂载到本地 /mnt/smb/win目录
 ```
-mount.cifs -o user=mary //172.0.0.1/share /mnt/smb/win/
+mount.cifs -o user=mary //172.24.7.1/share /mnt/smb/win/
 ```
 #### 若找不到命令mount.cifs，可以通过安装套件cifs-utils解决
 ```
